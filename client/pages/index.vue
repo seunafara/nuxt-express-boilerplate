@@ -34,6 +34,19 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "Welcome | MENN",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Don't rewrite codes over and over. Just clone this MENN boilerplate and kick off your project"
+        }
+      ]
+    };
+  },
   methods: {
     async logOut() {
       try {
