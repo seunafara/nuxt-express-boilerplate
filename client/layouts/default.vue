@@ -25,8 +25,9 @@ html {
   margin: 0;
 }
 
-button {
+.button {
   cursor: pointer;
+  font-size: 18px;
 }
 
 .button--green {
@@ -60,5 +61,8 @@ button {
 
 .links {
   margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

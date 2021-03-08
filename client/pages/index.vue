@@ -7,7 +7,7 @@
           href="https://github.com/seunafara/nuxt-express-boilerplate.git"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button button--green"
         >
           GitHub
         </a>
@@ -15,7 +15,7 @@
           v-if="authenticated"
           @click.prevent="logOut"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button button--grey"
         >
           Logout
         </button>
@@ -23,7 +23,7 @@
           v-else
           @click.prevent="$router.push('auth/login')"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button button--grey"
         >
           Login
         </button>
