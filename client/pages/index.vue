@@ -4,7 +4,7 @@
       <Logo />
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://github.com/seunafara/nuxt-express-boilerplate.git"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
